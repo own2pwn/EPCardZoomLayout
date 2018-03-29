@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		B998ED4E206CF80C0047580B /* EPCardZoomLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = B998ED4C206CF80C0047580B /* EPCardZoomLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9D6C0E1206D5FFF00024461 /* EPInfiniteScrollCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D6C0DD206D5FFF00024461 /* EPInfiniteScrollCoordinator.swift */; };
-		B9D6C0E2206D5FFF00024461 /* EPInfiniteScrollController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D6C0DE206D5FFF00024461 /* EPInfiniteScrollController.swift */; };
+		B9D6C0E2206D5FFF00024461 /* EPInfiniteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D6C0DE206D5FFF00024461 /* EPInfiniteController.swift */; };
 		B9D6C0E3206D5FFF00024461 /* EPInfiniteScrollAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D6C0DF206D5FFF00024461 /* EPInfiniteScrollAnimator.swift */; };
 		B9D6C0E4206D5FFF00024461 /* EPInfiniteDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D6C0E0206D5FFF00024461 /* EPInfiniteDataProvider.swift */; };
 		B9D6C0E6206D60BE00024461 /* CGPoint+Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D6C0E5206D60BE00024461 /* CGPoint+Math.swift */; };
@@ -21,7 +21,7 @@
 		B998ED4C206CF80C0047580B /* EPCardZoomLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPCardZoomLayout.h; sourceTree = "<group>"; };
 		B998ED4D206CF80C0047580B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9D6C0DD206D5FFF00024461 /* EPInfiniteScrollCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPInfiniteScrollCoordinator.swift; sourceTree = "<group>"; };
-		B9D6C0DE206D5FFF00024461 /* EPInfiniteScrollController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPInfiniteScrollController.swift; sourceTree = "<group>"; };
+		B9D6C0DE206D5FFF00024461 /* EPInfiniteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPInfiniteController.swift; sourceTree = "<group>"; };
 		B9D6C0DF206D5FFF00024461 /* EPInfiniteScrollAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPInfiniteScrollAnimator.swift; sourceTree = "<group>"; };
 		B9D6C0E0206D5FFF00024461 /* EPInfiniteDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPInfiniteDataProvider.swift; sourceTree = "<group>"; };
 		B9D6C0E5206D60BE00024461 /* CGPoint+Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Math.swift"; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 				B9D6C0F4206D623A00024461 /* Extension */,
 				B9D6C0E0206D5FFF00024461 /* EPInfiniteDataProvider.swift */,
 				B9D6C0DF206D5FFF00024461 /* EPInfiniteScrollAnimator.swift */,
-				B9D6C0DE206D5FFF00024461 /* EPInfiniteScrollController.swift */,
+				B9D6C0DE206D5FFF00024461 /* EPInfiniteController.swift */,
 				B9D6C0DD206D5FFF00024461 /* EPInfiniteScrollCoordinator.swift */,
 			);
 			path = Source;
@@ -167,7 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9D6C0E6206D60BE00024461 /* CGPoint+Math.swift in Sources */,
-				B9D6C0E2206D5FFF00024461 /* EPInfiniteScrollController.swift in Sources */,
+				B9D6C0E2206D5FFF00024461 /* EPInfiniteController.swift in Sources */,
 				B9D6C0E1206D5FFF00024461 /* EPInfiniteScrollCoordinator.swift in Sources */,
 				B9D6C0E3206D5FFF00024461 /* EPInfiniteScrollAnimator.swift in Sources */,
 				B9D6C0F6206D629200024461 /* CGRect+Instance.swift in Sources */,
