@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9D4659D206D676B00680FA1 /* Bool+Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D4659C206D676B00680FA1 /* Bool+Toggle.swift */; };
 		B9D6C104206D635000024461 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D6C103206D635000024461 /* AppDelegate.swift */; };
 		B9D6C106206D635000024461 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D6C105206D635000024461 /* ViewController.swift */; };
 		B9D6C109206D635000024461 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D6C107206D635000024461 /* Main.storyboard */; };
 		B9D6C10B206D635000024461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9D6C10A206D635000024461 /* Assets.xcassets */; };
 		B9D6C10E206D635000024461 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D6C10C206D635000024461 /* LaunchScreen.storyboard */; };
+		B9D6C11D206D638A00024461 /* EPCardZoomLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D6C11B206D638500024461 /* EPCardZoomLayout.framework */; };
+		B9D6C11F206D64B600024461 /* EPZoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D6C11E206D64B600024461 /* EPZoomCell.swift */; };
+		B9D6C122206D64FC00024461 /* Cell+Reuse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D6C121206D64FC00024461 /* Cell+Reuse.swift */; };
+		B9D6C125206D65F900024461 /* EPDisplayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D6C124206D65F900024461 /* EPDisplayModel.swift */; };
+		B9D6C127206D66B900024461 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D6C126206D66B900024461 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B9D6C11A206D638500024461 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9D6C116206D638400024461 /* EPCardZoomLayout.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B998ED49206CF80B0047580B;
+			remoteInfo = EPCardZoomLayout;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		B9D4659C206D676B00680FA1 /* Bool+Toggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+Toggle.swift"; sourceTree = "<group>"; };
 		B9D6C100206D635000024461 /* EPCardZoomLayout-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EPCardZoomLayout-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9D6C103206D635000024461 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9D6C105206D635000024461 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +39,11 @@
 		B9D6C10A206D635000024461 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9D6C10D206D635000024461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9D6C10F206D635000024461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9D6C116206D638400024461 /* EPCardZoomLayout.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EPCardZoomLayout.xcodeproj; path = ../../../EPCardZoomLayout.xcodeproj; sourceTree = "<group>"; };
+		B9D6C11E206D64B600024461 /* EPZoomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPZoomCell.swift; sourceTree = "<group>"; };
+		B9D6C121206D64FC00024461 /* Cell+Reuse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Cell+Reuse.swift"; sourceTree = "<group>"; };
+		B9D6C124206D65F900024461 /* EPDisplayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPDisplayModel.swift; sourceTree = "<group>"; };
+		B9D6C126206D66B900024461 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9D6C11D206D638A00024461 /* EPCardZoomLayout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +63,7 @@
 			children = (
 				B9D6C102206D635000024461 /* EPCardZoomLayout-Example */,
 				B9D6C101206D635000024461 /* Products */,
+				B9D6C11C206D638A00024461 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +78,59 @@
 		B9D6C102206D635000024461 /* EPCardZoomLayout-Example */ = {
 			isa = PBXGroup;
 			children = (
+				B9D6C123206D65E500024461 /* Source */,
+				B9D6C120206D64EE00024461 /* Extension */,
+				B9D6C115206D637400024461 /* lib */,
 				B9D6C103206D635000024461 /* AppDelegate.swift */,
-				B9D6C105206D635000024461 /* ViewController.swift */,
 				B9D6C107206D635000024461 /* Main.storyboard */,
 				B9D6C10A206D635000024461 /* Assets.xcassets */,
 				B9D6C10C206D635000024461 /* LaunchScreen.storyboard */,
 				B9D6C10F206D635000024461 /* Info.plist */,
 			);
 			path = "EPCardZoomLayout-Example";
+			sourceTree = "<group>";
+		};
+		B9D6C115206D637400024461 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				B9D6C116206D638400024461 /* EPCardZoomLayout.xcodeproj */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		B9D6C117206D638400024461 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9D6C11B206D638500024461 /* EPCardZoomLayout.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9D6C11C206D638A00024461 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9D6C120206D64EE00024461 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B9D6C121206D64FC00024461 /* Cell+Reuse.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B9D6C123206D65E500024461 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B9D6C11E206D64B600024461 /* EPZoomCell.swift */,
+				B9D6C105206D635000024461 /* ViewController.swift */,
+				B9D6C124206D65F900024461 /* EPDisplayModel.swift */,
+				B9D6C126206D66B900024461 /* Constants.swift */,
+				B9D4659C206D676B00680FA1 /* Bool+Toggle.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,12 +180,28 @@
 			mainGroup = B9D6C0F7206D635000024461;
 			productRefGroup = B9D6C101206D635000024461 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B9D6C117206D638400024461 /* Products */;
+					ProjectRef = B9D6C116206D638400024461 /* EPCardZoomLayout.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B9D6C0FF206D635000024461 /* EPCardZoomLayout-Example */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B9D6C11B206D638500024461 /* EPCardZoomLayout.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = EPCardZoomLayout.framework;
+			remoteRef = B9D6C11A206D638500024461 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B9D6C0FE206D635000024461 /* Resources */ = {
@@ -136,8 +221,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9D4659D206D676B00680FA1 /* Bool+Toggle.swift in Sources */,
 				B9D6C106206D635000024461 /* ViewController.swift in Sources */,
 				B9D6C104206D635000024461 /* AppDelegate.swift in Sources */,
+				B9D6C122206D64FC00024461 /* Cell+Reuse.swift in Sources */,
+				B9D6C11F206D64B600024461 /* EPZoomCell.swift in Sources */,
+				B9D6C125206D65F900024461 /* EPDisplayModel.swift in Sources */,
+				B9D6C127206D66B900024461 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

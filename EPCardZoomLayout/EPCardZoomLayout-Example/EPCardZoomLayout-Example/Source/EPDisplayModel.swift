@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  EPDisplayModel.swift
 //  EPCardZoomLayout-Example
 //
 //  Created by Evgeniy on 29.03.18.
@@ -8,9 +8,7 @@
 
 import UIKit
 
-final class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
+struct EPDisplayModel {
+    let color: UIColor
+    let index: Int
 }
