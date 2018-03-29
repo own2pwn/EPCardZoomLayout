@@ -1,5 +1,5 @@
 //
-//  EPInfiniteScrollController.swift
+//  EPInfiniteController.swift
 //  EPCardZoomLayout
 //
 //  Created by Evgeniy on 28.03.18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-public final class EPInfiniteScrollController<Item> {
+public final class EPInfiniteController<Item> {
     // MARK: - Interface
     
     public var dataProvider: EPInfiniteDataProvider<Item>

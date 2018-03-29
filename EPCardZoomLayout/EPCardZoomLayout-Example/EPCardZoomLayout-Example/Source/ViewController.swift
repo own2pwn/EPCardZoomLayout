@@ -37,7 +37,7 @@ final class ViewController: UIViewController {
 
     private let colors: [UIColor] = [#colorLiteral(red: 0.7825108767, green: 0.3639084697, blue: 0.4368497729, alpha: 1), #colorLiteral(red: 1, green: 0.667937696, blue: 0.4736554623, alpha: 1), #colorLiteral(red: 0.07389535755, green: 0.4140536785, blue: 0.7077813148, alpha: 1), #colorLiteral(red: 0.2040559649, green: 0.7372421622, blue: 0.6007294059, alpha: 1)]
 
-    private let ic = EPInfiniteScrollController<EPDisplayModel>()
+    private let ic = EPInfiniteController<EPDisplayModel>()
 
     // MARK: - Methods
 
